@@ -34,11 +34,15 @@
 .profile {
     width: 100%;
     border-bottom: 2px solid #eeeeee;
+    
+   
+
 }
 
 .profile .profile-image {
-    width: 100%;
+    max-width: 100%;
     border-radius: 100%;
+    
 }
 
 .name {
@@ -46,6 +50,7 @@
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .profession {
@@ -59,31 +64,50 @@
 .left-title {
     color: #eeeeee;
     font-size: 20px;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.8rem;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .contact-info ul li,
 .references ul li {
-    padding: .4rem 0;
+    
     color: #eeeeee;
+    border: 2px solid transparent;
+    padding-left: 0.8rem;
 }
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
     font-size: 18px;
     color: #eeeeee;
 }
+.contact-info ul li:hover{
+    border-left: 2px solid black;
+    cursor: pointer;
+}
 
 .skills ul {
-    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 .skills ul li p {
-    padding: .4rem 0;
     color: #eeeeee;
+    border: 2px solid transparent;
+    padding-left: 0.8rem;
+}
+.skills ul li p:hover{
+    border-left: 2px solid black;
+    cursor: pointer;
 }
 
 .right-section-contents {
