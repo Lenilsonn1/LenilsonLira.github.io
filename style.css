@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: slategrey;
 }
 
 h1{
@@ -30,13 +30,13 @@ h1{
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: rgb(103, 154, 201);
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #131414;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -49,14 +49,19 @@ h1{
     border-bottom: 2px solid #1B2631;
 }
 
-.profile .profile-image {
-    width: 100%;
-    border-radius: 50%;
-    border: 8px solid #1B2631;
+.profile .profile-image{
+    max-width: 100%;
+    border-radius: 30rem;
+    
+}
+
+.profile-image:hover{
+    border: 2px solid black;
+    
 }
 
 .name {
-    color: #D6DBDF;
+    color: dark;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -66,7 +71,7 @@ h1{
 }
 
 .profession {
-    color: #FDB44B;
+    color: dark;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -77,7 +82,7 @@ h1{
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: whitesmoke;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -93,19 +98,20 @@ h1{
 
 .contact-info ul li,
 .references ul li {
-    padding: .4rem 0;
+    padding: 3px;
     display: flex;
     align-items: center;
-    color: #d6dbdfaf;
+    color: dark;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
+    
+    padding-right: 0.4rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: dark;
 }
 
 .skills ul {
@@ -113,26 +119,33 @@ h1{
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #d6dbdfaf;
+    color: dark;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
+
+}
+.contact-info li:hover{
+    border-left: 1px solid black;
+}
+.skills li:hover{
+    border-left: 1px solid black;
 }
 
 .referance-name {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
     font-size: 18px;
-    color: #F9E79F;
+    color: whitesmoke;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .referance-profession {
     font-size: 16px;
-    color: #d6dbdfaf;
+    color: whitesmoke;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -144,7 +157,7 @@ h1{
 }
 
 .right-title {
-    color: #70C6C7;
+    color: whitesmoke;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -181,7 +194,7 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: rgb(103, 154, 201);
     padding-bottom: .4rem;
 }
 
@@ -200,7 +213,7 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: rgb(103, 154, 201);
     padding-bottom: .4rem;
 }
 
